@@ -1,0 +1,114 @@
+body {
+    background: url('../Assets/Background.png') no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.wrapper {
+    width: 420px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 405px;
+    height: 50px;
+    background: transparent;
+    margin: 20px 0;
+}
+
+.paragraf-open {
+    text-align: left;
+    color: #777777;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(24, 24, 24, 0.5);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    padding-left: 10px;
+}
+
+.input-box input::placeholder {
+    color: rgb(65, 65, 65);
+    font-weight: 400;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #000;
+}
+
+.remember-forgot {
+    text-align: left;
+    color: #000;
+}
+
+.wrapper button {
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    background: #367AFF;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.login-google{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid rgba(24, 24, 24, 0.11);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.login-google .icon-google {
+    font-size: 20px;
+}
+
+.block {
+    margin: 10px 10px;
+
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border-bottom: 1.5px solid #a0a0a0;
+    margin: 0 10px;
+  }
+  
+  .text-center {
+    margin: 0 10px;
+    color: #777777; /* Warna teks dapat disesuaikan */
+  }
+  
